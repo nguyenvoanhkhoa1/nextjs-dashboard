@@ -20,7 +20,7 @@ export default function LoginForm() {
         <h1 className={`${lusitana.className} mb-3 text-2xl`}>
           Please log in to continue.
         </h1>
-        <div className="w-full">
+        {/* <div className="w-full">
           <div>
             <label
               className="mb-3 mt-5 block text-xs font-medium text-gray-900"
@@ -60,7 +60,7 @@ export default function LoginForm() {
               <KeyIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
             </div>
           </div>
-        </div>
+        </div> */}
         <LoginButton />
         <div
           className="flex h-8 items-end space-x-1"
